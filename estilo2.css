@@ -1,0 +1,211 @@
+
+body{ 
+    background-image:  url('imagens/fundo.jpeg');                       
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+body,html, .capa {
+    height: 100%; 
+}
+
+.img-logo{
+    height:70px ;
+    width: 140px;
+    background: url('imagens/logo.png') no-repeat;
+    display: block;
+    background-size: contain;
+    color:transparent;    
+    }
+
+    nav.navbar-transparente{
+        padding: 20px 0px;
+        background: rgba(0, 0, 0, 0.6);
+        border: none;
+    }
+
+    .navbar-brand{
+        padding:5px 15px;
+     }
+     .divisor{
+         width: 2px;
+         height: 16px;
+         background: red;
+         margin: 16px 10px;
+     }
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
+    color:white;
+    text-transform: uppercase; 
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
+    color:#9bf0e1;
+    background: none;
+}
+
+/*Imagens*/
+
+.capa {
+    display: table;
+    width: 100%;
+    height: 50%;
+}
+
+.texto-capa {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;    
+}
+
+.texto-capa h1{
+    font-size: 50px;
+}
+
+/*Texto*/
+
+h1{
+  /*  font-size: 100px; */
+    font-weight: 700px;
+    letter-spacing: -0.05em;
+    margin-bottom:50px;
+}
+
+
+@media screen and (max-width: 767px){
+    h1{
+        font-size: 50px;
+    }
+
+    .btn-custom{
+        margin: 10px 15px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    h1{
+        font-size: 70px;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    h1{
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    h1{
+        font-size: 100px;
+    }
+}
+
+h3{
+    font-size: 50px;
+    font-weight: 700px;
+    letter-spacing: -0.04em;   
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 700px;
+    letter-spacing: -0.04em;
+   
+}
+
+
+
+
+
+#servicos{
+    background:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos h2, #servicos h3{
+    color: #7c26f8;
+}
+
+.albuns{
+    padding: 10px 0px 10px 0px;
+}
+
+#recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:black;
+}
+td{
+    font-weight:bold;
+}
+
+#recursos h2{
+    color: #9bf0c1;;
+}
+
+/*       Rodapé            */
+
+.container th img{
+    width: 150px;
+    height: 100px;
+}
+.container td img{
+    width: 150px;
+    height: 100px;
+}
+
+#rodape{
+    background: black;
+    text-align: center;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .btn-outline-danger{
+    color: #FFF;
+    background-color: #1DB954;
+    text-align: center;
+    border-radius: 500px;
+    
+  }

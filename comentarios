@@ -1,0 +1,6 @@
+Cabeçalho do site: navbar-header
+Logotipo: navbar-brand
+.collapse.navbar-collapse para agrupar e ocultar o conteúdo da barra de navegação 
+Toggle: 
+Sr-only: Exibir o menu só em dispositivos móveis.
+Contain: pega o mesmo estilo da classe
