@@ -1,6 +1,6 @@
 
 body{ 
-    background-image:  url('imagens/fundo.jpeg');                       
+    background-image:  url('../image/fundo.jpeg');                       
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -14,7 +14,7 @@ body,html, .capa {
 .img-logo{
     height:70px ;
     width: 140px;
-    background: url('imagens/logo.png') no-repeat;
+    background: url('../image/logo.png') no-repeat;
     display: block;
     background-size: contain;
     color:transparent;    
